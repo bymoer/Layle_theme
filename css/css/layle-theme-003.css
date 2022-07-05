@@ -1,0 +1,686 @@
+/*
+* Text styling
+*/
+.indent-text-1{
+    text-indent: 1.5em;
+}
+
+.fitting-grey{
+    color: rgb(246,247,248);
+}
+
+.text-endless-sea{
+    color: rgb(50,88,110);
+}
+
+.text-material-grey{
+    color: rgba(0,0,0,0.6) !important;
+}
+
+.text-material-black{
+    color: rgba(0,0,0,0.8) !important;
+}
+
+.text-footer-brown{
+    color: rgba(255,255,255,0.4) !important;
+}
+
+/*
+* Fonts
+*/
+.font-niconne{
+    font-family: 'Niconne', cursive;
+}
+
+.font-work-sans{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.font-monoton{
+    font-family: 'Monoton', cursive;
+}
+
+.font-oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-satisfy{
+    font-family: 'Satisfy', cursive;
+}
+
+.font-space-mono{
+    font-family: 'Space Mono', monospace;
+}
+
+.font-lato{
+    font-family: 'Lato', sans-serif;
+}
+
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*
+* Background colors
+*/
+
+.background-grey{
+    background-color: rgb(236,239,241);
+}
+
+.background-endless-sea{
+    background-color: rgb(50,88,110);
+}
+
+.background-footer{
+    background-color: rgb(76,61,49);
+}
+
+.background-dirty-martini{
+    background-color: rgb(221,208,182);
+}
+
+/*
+* Google Material Icons Styling
+*/
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/*
+* Alignment
+*/
+
+.vertical-align{
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+* Navbar
+*/
+
+/* Navbar "Box" styling */
+.navbar-box{
+    margin-bottom: 0px; 
+    background-color: rgb(50,88,110); 
+    border-color: rgb(50,88,110); 
+    color: rgb(219,223,224); 
+    border: none; 
+    border-radius: 0px;
+}
+
+/* Navbar font styling */
+.navbar > *{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* For styling clicked navbar dropdown background color */
+.navbar-default .navbar-nav > .open > a{
+    background-color: rgb(50,88,110) !important;
+}
+
+/* Navbar text color */
+.navbar-default .navbar-nav > li > a{
+    /*color: rgb(219,223,224);*/
+    color: rgb(246,247,248);
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    /*color: rgb(76,61,49);*/
+    color: rgb(221,208,182);
+}
+
+.navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: rgb(221,208,182);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu{
+    background-color: rgb(50,88,110);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: rgb(246,247,248);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+    /*color: rgb(219,223,224);*/
+    color: rgb(246,247,248);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+    background-color: rgb(50,88,110);
+    color: rgb(221,208,182);
+}
+
+div#layle-navbar-collapse-1.navbar-collapse.collapse.in{
+    border: none;
+}
+
+/* Navbar dropdown menu form styling */
+.navbar-collapse{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-default div.navbar-collapse
+{
+    border-top:none;
+    box-shadow:none;
+}
+
+/* Hamburger */
+button.navbar-toggle.navbar-right.collapsed{}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    /*background-color: rgb(50,88,110);*/
+    /*background-color: #4d87a8;*/
+    background-color: rgb(221,208,182);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(246,247,248);
+}
+
+/* Hamburger menu bars on :hover & :focus */
+.navbar-default .navbar-toggle:hover .icon-bar {
+    /*background-color: rgb(76,61,49);*/
+    background-color: rgb(246,247,248);
+    border-color: rgb(76,61,49);
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: rgb(50,88,110);
+}
+
+/*
+* Jumbotron
+*/
+
+.jumbotron-outer-wrapper{
+    /*display: table;*/ 
+    margin-left: 0px; 
+    margin-right: 0px; 
+    width: 100%; 
+    padding: 0px;
+}
+
+.jumbotron-inner-wrapper{
+     border-radius: 0px !important; 
+     height: 95vh; 
+     /*background-color: rgba(50,88,110,1);*/
+}
+
+.jumbotron-txt-box{
+
+}
+
+.jumbotron-txt-box > div > h1{
+     font-size: 10em;
+     color: rgb(246,247,248);
+}
+
+.jumbotron-txt-box-button-wrapper{
+     display: block;
+}
+
+.jumbotron-txt-box-button-wrapper > button{
+     display: inline-block; 
+     border-radius: 100px; 
+     width: 100px; 
+     background-color: rgb(50,88,110); 
+     color: rgb(246,247,248);
+}
+
+.jumbotron-txt-box-button-wrapper > button:hover{
+    background-color: rgb(246,247,248);
+    color: rgb(50,88,110);
+    border: solid 1px rgb(246,247,248);
+}
+
+.read-more-btn{
+    margin-bottom: 15px;
+}
+
+.jumbotron-form-box{
+     justify-content: center; 
+     border: solid 1px white; 
+     height: 350px;
+}
+
+.jumbotron-form-box > form{
+     margin-top: 25px;
+     margin-bottom: 15px;
+}
+
+.jumbotron-form-box > form > .form-group > input{
+     background-color: rgb(50,88,110); 
+     border: solid 1px rgb(246,247,248); 
+     box-shadow: none;
+}
+
+#formFirstName:active, #formFirstName:focus, #formFirstName:hover, #formLastName:active, #formLastName:focus, #formLastName:hover, #formEmail:active, #formEmail:focus, #formEmail:hover{
+    background-color: rgb(246,247,248);
+    color: rgb(50,88,110);
+}
+
+.jumbotron-form-box > form > button{
+     background-color: rgb(50,88,110); 
+     color: rgb(246,247,248); 
+     margin-top: 30px; 
+     width: 100%; 
+     border-radius: 100px;
+}
+
+.jumbotron-form-box > form > button:hover{
+    background-color: rgb(246,247,248);
+    color: rgb(50,88,110);
+}
+
+.modal-wrapper{
+     height: 100%;
+}
+
+.modal-wrapper > .modal-dialog{
+     width: 90vw;
+}
+
+.modal-wrapper > .modal-dialog > button{
+     color: rgb(246,247,248); 
+     border: none; 
+     background-color: rgba(0,0,0,0);
+}
+
+.modal-wrapper > .modal-dialog > .modal-content{
+     padding: 0px; 
+     margin: 0px; 
+     border-radius: 0px; 
+     box-shadow: none; 
+     background-color: rgba(0,0,0,0); 
+     border: none;
+}
+
+.modal-wrapper > .modal-dialog > .modal-content > video{
+     padding: 10px;
+}
+
+/*
+* Product Presentation
+*/
+
+.product-presentation-wrapper{
+     height: 700px;
+}
+
+.product-presentation-image-col{
+    margin-left: 0px; 
+    margin-right: 0px; 
+    padding: 0px;
+}
+
+.product-presentation-txt-col{
+
+}
+
+.product-presentation-txt-col hr{
+     border: 0; 
+     height: 1px; 
+     background-image: linear-gradient(to right, rgba(50,88,110,0), rgba(50,88,110,0.75), rgba(50,88,110,0));
+}
+
+.product-presentation-txt-col p{
+     line-height: 1.8em; 
+     color: rgba(0,0,0,0.6);
+}
+
+.small-devices-presentation{
+    display: none;
+}
+
+/*
+* Competencies / Skillset
+*/
+
+.skillset-outer-wrapper{
+
+}
+
+.skillset-outer-wrapper .row{
+    padding-top: 5%;
+}
+
+.skillset-icon-row{
+
+}
+
+.skillset-icon-row div{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.skillset-icon-row div h3{
+    margin-top: 0px;
+}
+
+.skillset-icon-row div p{
+    text-align: justify;
+}
+
+/*
+* Pricing
+*/
+
+.pricing-header-wrapper{
+     padding-top: 75px; 
+     padding-bottom: 75px;
+}
+
+.pricing-col{
+    max-width: 360px;
+}
+
+.pricing-col-wrapper div .pricing-col{
+     border: solid rgb(55,80,110) 2px !important;
+}
+
+.pricing-col-wrapper div .pricing-col h2{
+     text-align: center; 
+     padding-top: 25px; 
+     color: rgb(50,88,110);
+}
+
+.pricing-col-wrapper div .pricing-col h1{
+    text-align: center;
+}
+
+.pricing-col-wrapper div .pricing-col p{
+     text-align: center; 
+     margin: 0px;
+}
+
+.pricing-col-wrapper div .pricing-col ul{
+     list-style-type: none; 
+     margin-bottom: 40px; 
+     color: rgba(0,0,0,0.6) !important;
+}
+
+.pricing-col-wrapper div .pricing-col ul li span i{
+    display: inline-flex; 
+    vertical-align: middle; 
+    line-height: 1.5em;
+}
+
+.pricing-col-wrapper div .pricing-col div{
+     width: 100%; 
+     margin-bottom: 20px;
+}
+
+.pricing-col-wrapper div .pricing-col div button{
+     border-radius: 100px; 
+     color: rgb(246,247,248); 
+     background-color: rgb(55,80,110); 
+     border: solid rgb(55,80,110) 2px;
+}
+
+.pricing-col-wrapper div .pricing-col div button:hover{
+    background-color: rgb(255,255,255);
+    color: rgb(55,80,110);
+}
+
+.pricing-col-enlarged{
+    transform: scale(1.05, 1.05);
+}
+
+/*
+* Testimonials
+*/
+
+.testimonials-outer-wrapper{
+     margin-top: 125px;
+}
+
+.testimonials-header {
+
+}
+
+.testimonials-header div h1{
+     color: rgb(50,88,110); 
+     margin-top: 100px;
+}
+
+.testimonials-client-names{
+     padding-bottom: 60px; 
+     padding-top: 60px;
+}
+
+.testimonials-citations-row{
+    padding-bottom: 60px;
+}
+
+.client-feedback-citation{
+     background-color: rgb(255,255,255);
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     padding: 5%; 
+     font-size: small;
+     font-style: italic;
+
+     position: relative;
+}
+
+.citation-arrow{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+
+    position: absolute;
+
+    bottom: -20px;
+}
+
+.client-feedback-citation-wrapper{
+    width: 90%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.client-feedback-profile{
+     display: flex; 
+     align-items: center; 
+     margin-top: 20px;
+}
+
+.client-feedback-profile div img{
+    width: 60px; 
+    height: 60px;
+}
+
+.client-feedback-profile-name{
+     margin-top: 15px; 
+     margin-left: 15px;
+}
+
+/*
+* Newsletter signup - frontpage
+*/
+
+.newsletter-signup-wrapper{
+     padding-top: 60px; 
+     padding-bottom: 60px;
+}
+
+.newsletter-signup-wrapper div p{
+    font-style: italic;
+}
+
+.newsletter-signup-wrapper form{
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 100%;
+}
+
+.newsletter-signup-wrapper form input{
+    border-radius: 0px;
+}
+
+.newsletter-signup-wrapper form input:hover, .newsletter-signup-wrapper form input:focus, .newsletter-signup-wrapper form input:active{
+    background-color: rgb(246,247,248);
+    border: solid 1px rgb(55,80,110);
+    box-shadow: none;
+}
+
+
+.newsletter-signup-wrapper form button{
+     margin-top: 15px; 
+     border-radius: 100px;
+}
+
+.newsletter-signup-wrapper form button:hover{
+    background-color: rgb(246,247,248);
+    color: rgb(55,80,110);
+}
+/*
+* Footer
+*/
+
+.footer-wrapper{
+
+}
+
+.footer-list-row{
+     padding-top: 40px; 
+     padding-bottom: 75px;
+}
+
+.footer-company-row{
+     padding-bottom: 30px;
+}
+
+/*
+* Media Queries
+*/
+
+@media screen and (max-width: 345px){}
+
+@media screen and (min-width: 431px){
+    .newsletter-signup-wrapper form{
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 390px;
+    }
+
+    .newsletter-signup-wrapper form input{
+
+    }
+
+    .newsletter-signup-wrapper form button{
+        margin-top: 15px; 
+        border-radius: 100px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .jumbotron-txt-box > div > h1{
+        font-size: 5em !important;
+    }
+    
+    .product-presentation-wrapper{
+        height: 500px;
+        /*display: none;*/
+        flex-direction: column;
+    }
+
+    .small-devices-presentation{
+        /*display: inherit;*/
+        display: none;
+    }
+
+    .product-presentation-txt-col{
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .jumbotron-txt-box > div > h1{
+        font-size: 8em;
+    }    
+}
+
+@media (max-width: 767px){
+
+    .pricing-col{
+        display: block;
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    .pricing-col ul li {
+        text-indent: 9px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .skillset-content-box{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .footer-list-row{
+        padding-top: 40px; 
+        padding-bottom: 50px;
+    }
+
+    .footer-company-row{
+        padding-bottom: 30px;
+    }
+
+    .vertical-align-768{
+        display: -webkit-flex;
+
+        justify-content: center;
+
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .indent-text-1{
+        text-indent: 0px;
+    }
+
+}
+
+@media screen and (max-width: 1199px){
+    .jumbotron-inner-wrapper{
+        border-radius: 0px !important; 
+        height: 120vh; 
+         /*background-color: rgba(50,88,110,1);*/
+    }
+}
+
+@media (min-width: 1200px){
+
+    .indent-text-1{
+        text-indent: 35px;
+    }
+}

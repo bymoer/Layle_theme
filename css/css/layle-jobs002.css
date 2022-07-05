@@ -1,0 +1,106 @@
+.job-list-section{
+    margin-bottom: 100px;
+}
+
+.job-why-col{
+
+}
+
+.job-why-col > hr{
+     border: 0; 
+     height: 1px; 
+     background-image: linear-gradient(to right, rgba(50,88,110,0), rgba(50,88,110,0.75), rgba(50,88,110,0));
+}
+
+.job-why-col > p{
+     padding-left: 12.5%; 
+     padding-right: 12.5%;
+}
+
+.job-box{
+    height: 250px; 
+    margin-top: 25px;
+}
+
+.job-box div{
+    height: 100%; 
+    width: 100%; 
+    justify-content: center; 
+    padding: 5%;
+}
+
+.job-box div i{
+    font-size: 16em;
+}
+
+#job001 div i, #job002 div i, #job003 div i, #job004 div i, #job005 div i, #job006 div i, #job007 div i, #job008 div i, #job009 div i, #job010 div i, #job011 div i, #job012 div i{
+    display: none;
+}
+
+.job-box:hover{
+    cursor:pointer;
+}
+
+#job001:hover > div > h2, #job002:hover > div > h2, #job003:hover > div > h2, #job004:hover > div > h2, #job005:hover > div > h2, #job006:hover > div > h2, #job007:hover > div > h2, #job008:hover > div > h2, #job009:hover > div > h2, #job010:hover > div > h2, #job011:hover > div > h2, #job012:hover > div > h2{
+    display: none;
+}
+
+#job001:hover > div > i, #job002:hover > div > i, #job003:hover > div > i, #job004:hover > div > i, #job005:hover > div > i, #job006:hover > div > i, #job007:hover > div > i, #job008:hover > div > i, #job009:hover > div > i, #job010:hover > div > i, #job011:hover > div > i, #job012:hover > div > i{
+    display: inherit;
+}
+
+
+/*------------------------------------------???????*/
+
+.jobs-signup-wrapper{
+     padding-top: 60px; 
+     padding-bottom: 60px;
+}
+
+.jobs-signup-wrapper div p{
+    font-style: italic;
+}
+
+.jobs-signup-wrapper form{
+     margin-left: auto; 
+     margin-right: auto; 
+     /*width: 30%;*/
+     width: 245px;
+}
+
+.jobs-signup-wrapper form input{
+    border-radius: 0px;
+}
+
+.jobs-signup-wrapper form input:hover, .jobs-signup-wrapper form input:active, .jobs-signup-wrapper form input:focus{
+    background-color: rgb(246,247,248);
+    color: rgb(55,80,110)
+}
+
+.jobs-signup-wrapper form button{
+     margin-top: 15px; 
+     border-radius: 100px;
+}
+
+.jobs-signup-wrapper form button:hover{
+     background-color: rgb(246,247,248);
+     box-shadow: none;
+     color: rgb(55,80,110);
+}
+
+@media(max-width: 768px){
+
+    form{
+        width: 100%;
+    }
+
+    .jobs-signup-wrapper{
+        width: 100% !important;
+        margin-left: 3px;
+    }
+
+    .jobs-signup-wrapper form input{
+        width: 245px;
+    }
+    
+}

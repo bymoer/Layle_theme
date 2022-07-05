@@ -1,0 +1,704 @@
+/*
+* Text styling
+*/
+.indent-text-1{
+    text-indent: 1.5em;
+}
+
+.fitting-grey{
+    color: rgb(246,247,248);
+}
+
+.text-endless-sea{
+    color: rgb(50,88,110);
+}
+
+.text-material-grey{
+    color: rgba(0,0,0,0.6) !important;
+}
+
+.text-material-black{
+    color: rgba(0,0,0,0.8) !important;
+}
+
+.text-footer-brown{
+    color: rgba(255,255,255,0.4) !important;
+}
+
+/*
+* Fonts
+*/
+.font-niconne{
+    font-family: 'Niconne', cursive;
+}
+
+.font-work-sans{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.font-monoton{
+    font-family: 'Monoton', cursive;
+}
+
+.font-oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-satisfy{
+    font-family: 'Satisfy', cursive;
+}
+
+.font-space-mono{
+    font-family: 'Space Mono', monospace;
+}
+
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*
+* Google Material Icons Styling
+*/
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/*
+* Alignment
+*/
+
+.vertical-align{
+    display: flex;
+    align-items: center;
+}
+
+/*
+* Background colors
+*/
+
+.background-grey{
+    background-color: rgb(236,239,241);
+}
+
+.background-endless-sea{
+    background-color: rgb(50,88,110);
+}
+
+.background-footer{
+    background-color: rgb(76,61,49);
+}
+
+.background-dirty-martini{
+    background-color: rgb(221,208,182);
+}
+
+.background-off-white{
+    background-color: rgb(246,247,248);
+}
+/******************** 
+* Jitterbug Jade    *
+*********************/
+
+/* Main color */
+.background-jitterbug-jade{
+    background-color: rgb(1,157,110);
+}
+
+/* Accents */
+.background-dorian-clay{
+    background-color: rgb(172,167,158);
+}
+
+.background-eider-white{
+    background-color: rgb(226,222,216);
+}
+
+.background-pure-white{
+    background-color: rgb(237,236,230);
+}
+
+/******************** 
+* Confident Yellow  *
+*********************/
+
+/* Main color */
+.background-confident-yellow{
+    background-color: rgb(254,203,1);
+}
+
+/* Accents */
+.background-teal-stencil{
+    background-color: rgb(98,127,123);
+}
+
+.background-extra-white{
+    background-color: rgb(238,239,234);
+}
+
+.background-pure-white{
+    background-color: rgb(237,236,230);
+}
+
+/******************** 
+* Sea Serpent       *
+*********************/
+
+/* Main color */
+.background-sea-serpent{
+    background-color: rgb(62,75,84);
+}
+
+/* Accents */
+.background-uncertain-gray{
+    background-color: rgb(169,176,177);
+}
+
+.background-lullaby{
+    background-color: rgb(203,212,212);
+}
+
+.background-ice-cube{
+    background-color: rgb(227,228,225);
+}
+
+/******************** 
+* Dark burgundy     *
+*********************/
+
+/* Main color */
+.background-dark-burgundy{
+    background-color: rgb(103,52,72);
+}
+
+/* Accents */
+.background-gargoyle{
+    background-color: rgb(125,118,104);
+}
+
+.background-horizon-gray{
+    background-color: rgb(192,193,178);
+}
+/*
+* Navbar
+*/
+
+/* Navbar "Box" styling */
+.navbar-box{
+    margin-bottom: 0px; 
+    background-color: rgb(50,88,110); 
+    border-color: rgb(50,88,110); 
+    color: rgb(219,223,224); 
+    border: none; 
+    border-radius: 0px;
+}
+
+/* Navbar font styling */
+.navbar > *{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* For styling clicked navbar dropdown background color */
+.navbar-default .navbar-nav > .open > a{
+    background-color: rgb(50,88,110) !important;
+}
+
+/* Navbar text color */
+.navbar-default .navbar-nav > li > a{
+    /*color: rgb(219,223,224);*/
+    color: rgb(246,247,248);
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    /*color: rgb(76,61,49);*/
+    color: rgb(221,208,182);
+}
+
+.navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: rgb(221,208,182);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu{
+    background-color: rgb(50,88,110);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: rgb(246,247,248);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+    /*color: rgb(219,223,224);*/
+    color: rgb(246,247,248);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+    background-color: rgb(50,88,110);
+    color: rgb(221,208,182);
+}
+
+div#layle-navbar-collapse-1.navbar-collapse.collapse.in{
+    border: none;
+}
+
+/* Navbar dropdown menu form styling */
+.navbar-collapse{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-default div.navbar-collapse
+{
+    border-top:none;
+    box-shadow:none;
+}
+
+/* Hamburger */
+button.navbar-toggle.navbar-right.collapsed{}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    /*background-color: rgb(50,88,110);*/
+    /*background-color: #4d87a8;*/
+    background-color: rgb(221,208,182);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(246,247,248);
+}
+
+/* Hamburger menu bars on :hover & :focus */
+.navbar-default .navbar-toggle:hover .icon-bar {
+    /*background-color: rgb(76,61,49);*/
+    background-color: rgb(246,247,248);
+    border-color: rgb(76,61,49);
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: rgb(50,88,110);
+}
+
+/*
+* Jumbotron
+*/
+
+.jumbotron-outer-wrapper{
+    display: table; 
+    margin-left: 0px; 
+    margin-right: 0px; 
+    width: 100%; 
+    padding: 0px;
+}
+
+.jumbotron-inner-wrapper{
+     display: table-cell; 
+     vertical-align: middle; 
+     width: 100vw; 
+     height: 95vh; 
+     background-color: rgb(50,88,110); 
+     border-radius: 0px !important;
+}
+
+.jumbotron-inner-wrapper h1{
+    color: rgb(246,247,248); 
+    font-size: 10em;
+}
+
+.jumbotron-inner-wrapper p{
+
+}
+
+/*
+* Product Presentation
+*/
+
+.product-presentation-wrapper{
+     height: 700px;
+}
+
+.product-presentation-image-col{
+    margin-left: 0px; 
+    margin-right: 0px; 
+    padding: 0px;
+    height: 100%;
+    max-height: 100%;
+}
+
+.product-presentation-image-col > img{
+    height: 100%;
+}
+
+.product-presentation-txt-col{
+
+}
+
+.product-presentation-txt-col hr{
+     border: 0; 
+     height: 1px; 
+     background-image: linear-gradient(to right, rgba(50,88,110,0), rgba(50,88,110,0.75), rgba(50,88,110,0));
+}
+
+.product-presentation-txt-col p{
+     line-height: 1.8em; 
+     color: rgba(0,0,0,0.6);
+}
+
+.small-devices-presentation{
+    display: none;
+}
+
+/*
+* Competencies / Skillset
+*/
+
+.skillset-outer-wrapper{
+
+}
+
+.skillset-outer-wrapper .row{
+    padding-top: 5%;
+}
+
+.skillset-icon-row{
+
+}
+
+.skillset-icon-row div{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.skillset-icon-row div h3{
+    margin-top: 0px;
+}
+
+.skillset-icon-row div p{
+    text-align: justify;
+}
+
+/*
+* Pricing
+*/
+
+.pricing-header-wrapper{
+     padding-top: 75px; 
+     padding-bottom: 75px;
+}
+
+.pricing-col{
+    max-width: 360px;
+}
+
+.pricing-col-wrapper div .pricing-col{
+     border: solid rgb(55,80,110) 2px !important;
+}
+
+.pricing-col-wrapper div .pricing-col h2{
+     text-align: center; 
+     padding-top: 25px; 
+     color: rgb(50,88,110);
+}
+
+.pricing-col-wrapper div .pricing-col h1{
+    text-align: center;
+}
+
+.pricing-col-wrapper div .pricing-col p{
+     text-align: center; 
+     margin: 0px;
+}
+
+.pricing-col-wrapper div .pricing-col ul{
+     list-style-type: none; 
+     margin-bottom: 40px; 
+     color: rgba(0,0,0,0.6) !important;
+}
+
+.pricing-col-wrapper div .pricing-col ul li span i{
+    display: inline-flex; 
+    vertical-align: middle; 
+    line-height: 1.5em;
+}
+
+.pricing-col-wrapper div .pricing-col div{
+     width: 100%; 
+     margin-bottom: 20px;
+}
+
+.pricing-col-wrapper div .pricing-col div button{
+     border-radius: 100px; 
+     color: rgb(246,247,248); 
+     background-color: rgb(55,80,110); 
+     border: solid rgb(55,80,110) 2px;
+}
+
+.pricing-col-wrapper div .pricing-col div button:hover{
+    background-color: rgb(255,255,255);
+    color: rgb(55,80,110);
+}
+
+.pricing-col-enlarged{
+    transform: scale(1.05, 1.05);
+}
+
+/*
+* Testimonials
+*/
+
+.testimonials-outer-wrapper{
+     margin-top: 125px;
+}
+
+.testimonials-header {
+
+}
+
+.testimonials-header div h1{
+     color: rgb(50,88,110); 
+     margin-top: 100px;
+}
+
+.testimonials-client-names{
+     padding-bottom: 60px; 
+     padding-top: 60px;
+}
+
+.testimonials-citations-row{
+    padding-bottom: 60px;
+}
+
+.client-feedback-citation{
+     background-color: rgb(255,255,255);
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     padding: 5%; 
+     font-size: small;
+     font-style: italic;
+
+     position: relative;
+}
+
+.citation-arrow{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+
+    position: absolute;
+
+    bottom: -20px;
+}
+
+.client-feedback-citation-wrapper{
+    width: 90%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.client-feedback-profile{
+     display: flex; 
+     align-items: center; 
+     margin-top: 20px;
+}
+
+.client-feedback-profile div img{
+    width: 60px; 
+    height: 60px;
+}
+
+.client-feedback-profile-name{
+     margin-top: 15px; 
+     margin-left: 15px;
+}
+
+/*
+* Newsletter signup - frontpage
+*/
+
+.newsletter-signup-wrapper{
+     padding-top: 60px; 
+     padding-bottom: 60px;
+}
+
+.newsletter-signup-wrapper div p{
+    font-style: italic;
+}
+
+.newsletter-signup-wrapper form{
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 100%;
+}
+
+.newsletter-signup-wrapper form input{
+    border-radius: 0px;
+}
+
+.newsletter-signup-wrapper form input:hover, .newsletter-signup-wrapper form input:focus, .newsletter-signup-wrapper form input:active{
+    background-color: rgb(246,247,248);
+    border: solid 1px rgb(55,80,110);
+    box-shadow: none;
+}
+
+.newsletter-signup-wrapper form button{
+     margin-top: 15px; 
+     border-radius: 100px;
+}
+
+.newsletter-signup-wrapper form button:hover{
+    background-color: rgb(246,247,248);
+    color: rgb(55,80,110);
+}
+
+/*
+* Footer
+*/
+
+.footer-wrapper{
+
+}
+
+.footer-list-row{
+     padding-top: 40px; 
+     padding-bottom: 75px;
+}
+
+.footer-company-row{
+     padding-bottom: 30px;
+}
+
+
+/*
+* Media Queries
+*/
+
+@media screen and (max-width: 345px){}
+
+@media screen and (min-width: 431px){
+    .newsletter-signup-wrapper form{
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 390px;
+    }
+
+    .newsletter-signup-wrapper form input{
+
+    }
+
+    .newsletter-signup-wrapper form button{
+        margin-top: 15px; 
+        border-radius: 100px;
+    }
+}
+
+@media (max-width: 450px){
+    .product-presentation-wrapper{
+        height: 500px;
+        /*display: none;*/
+        flex-direction: column;
+    }
+
+    .small-devices-presentation{
+        /*display: inherit;*/
+        display: none;
+    }
+
+    .product-presentation-txt-col{
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .pricing-col{
+        display: block;
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    .pricing-col ul li {
+        text-indent: 9px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .jumbotron-inner-wrapper h1{ 
+        font-size: 6em;
+    }
+
+    .skillset-content-box{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .footer-list-row{
+     padding-top: 40px; 
+     padding-bottom: 50px;
+    }
+
+    .footer-company-row{
+        padding-bottom: 30px;
+    }
+
+    .vertical-align-768{
+        /*
+        display: flex !important;
+        align-items: center;
+        flex-direction: column;
+        */
+
+        /*
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+
+        align-items: center;
+        */
+
+        display: -webkit-flex;
+
+        justify-content: center;
+
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .indent-text-1{
+        text-indent: 0px;
+    }
+
+    .jumbotron-inner-wrapper h1{ 
+        font-size: 8em;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){}
+
+@media (min-width: 1200px){
+
+    .indent-text-1{
+        text-indent: 35px;
+    }
+}

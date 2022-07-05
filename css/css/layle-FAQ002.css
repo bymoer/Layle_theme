@@ -1,0 +1,149 @@
+.faq-intro > h2{
+    font-size: 3em;
+    margin-top: 40px;
+}
+
+.faq-intro-txt{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.question-row{
+
+}
+
+.question, .answer{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgba(0,0,0,0.6);
+    vertical-align: middle;
+}
+
+.question{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.answer > i{
+    vertical-align: middle;
+}
+
+.question > span > i, .answer > span > i{
+    vertical-align: middle;
+}
+
+.answer{
+    margin-bottom: 50px;
+}
+
+.no-answer-email{
+    padding-bottom: 100px;
+}
+
+.no-answer-email-heading{
+     padding-top: 40px; 
+     padding-bottom: 20px;
+}
+
+.no-answer-form > div{
+     background-color:rgb(246,247,248); 
+     padding-left: 0px; 
+     padding-right: 0px; 
+     border: solid 2px rgb(50,88,110); 
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.no-answer-form > div > h2{
+     justify-content: center; 
+     width: 100%; 
+     height: 100px; 
+     padding: 5px; 
+     background-color: rgb(50,88,110); 
+     margin: 0px;
+}
+
+.no-answer-form > div > form{
+     padding: 10px;
+     background-color: rgb(50,88,110);
+}
+
+#exampleInputName1, #exampleInputEmail1, #exampleTxtArea1{
+    background-color: rgb(50,88,110);
+    border-radius: 0px;
+}
+
+#exampleInputName1:hover, #exampleInputEmail1:hover, #exampleTxtArea1:hover, #exampleInputName1:active, #exampleInputEmail1:active, #exampleTxtArea1:active, #exampleInputName1:focus, #exampleInputEmail1:focus, #exampleTxtArea1:focus{
+    background-color: rgb(246,247,248);
+    border: solid 1px rgb(50,88,110);
+    color: rgb(50,88,110);
+}
+
+.no-answer-form > div > form > button{
+     border: solid 1px rgb(246,247,248); 
+     margin-left: auto; 
+     margin-right: auto; 
+     display: block; 
+     width: 175px; 
+     border-radius: 25px; 
+     background-color: rgb(50,88,110);
+}
+
+.no-answer-form > div > form > button:hover{
+    background-color: rgb(246,247,248);
+    border: solid 1px rgb(50,88,110);
+    box-shadow: none;
+    color: rgb(50,88,110);
+}
+
+@media(max-width: 767px){
+    .question{
+        font-size: 0.5em;
+    }
+
+    .question, .answer{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+}
+
+@media screen and(max-width: 767px){
+    .question{
+        font-size: 0.5em;
+    }
+
+    .question, .answer{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .faq-intro-txt{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+}
+
+@media(max-width: 991px){
+    .question{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and(max-width: 991px){
+    .question{
+        font-size: 1.5em;
+    }
+}
+
+@media(min-width: 1199px){
+    .question{
+        font-size: 2em;
+    }
+}
+
+@media screen and(min-width: 1199px){
+    .question{
+        font-size: 2em;
+    }
+}
